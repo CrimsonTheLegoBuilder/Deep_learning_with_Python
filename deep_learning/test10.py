@@ -57,7 +57,7 @@ trainX, valX, trainY, valY = train_test_split(X, Y, test_size=0.2, random_state=
 print(len(trainX))
 print(len(valX))
 
-model = tf.keras.models.Sequential([
-    tf.keras.layers.Embedding(len() + 1, 16),
-
-])
+# model = tf.keras.models.Sequential([
+#     tf.keras.layers.Embedding(len() + 1, 16),
+#
+# ])
