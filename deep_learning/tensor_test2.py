@@ -9,6 +9,7 @@ data = data.dropna()
 y_data = data['admit'].values
 # print(y_data)
 x_data = []
+
 for i, rows in data.iterrows():
     x_data.append([rows['gre'], rows['gpa'], rows['rank']])
 
